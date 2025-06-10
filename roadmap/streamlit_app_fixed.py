@@ -44,7 +44,7 @@ st.markdown("""
 def load_data():
     """加载Excel数据"""
     try:
-        df = pd.read_excel("黑龙江数据V20250609.xlsx")
+        df = pd.read_excel("roadmap/黑龙江数据V20250609.xlsx")
         return df
     except Exception as e:
         st.error(f"数据加载失败: {e}")
